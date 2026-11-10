@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cherrie Lou Cuenca — Full-Stack Developer & UI Enthusiast. Creative developer portfolio: 3D, design, and code." />
+  <title>Cherrie Lou Cuenca — Creative Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="nav-pill">
+      <a href="#home" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.6L21 11l-6.4 2.4L12 20l-2.6-6.6L3 11l6.4-2.4z" fill="currentColor"/></svg>
+        </span>
+        <span>Cherrie Cuenca</span>
+      </a>
+      <span class="nav-sep"></span>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+    <a href="#contact" class="nav-cta">Let's Talk <span class="arrow-dot">→</span></a>
+  </header>
+
+  <!-- Full-screen menu -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu-links">
+      <a href="#home"><span>01</span>Home</a>
+      <a href="#about"><span>02</span>About</a>
+      <a href="#model"><span>03</span>3D Studio</a>
+      <a href="#projects"><span>04</span>Projects</a>
+      <a href="#skills"><span>05</span>Skills</a>
+      <a href="#contact"><span>06</span>Contact</a>
+    </nav>
+    <p class="menu-foot">cuencacherrielou@gmail.com · Lipa City, Batangas</p>
+  </div>
+
+  <!-- ============ HERO (scroll-driven) ============ -->
+  <section id="home" class="hero-track">
+    <div class="hero-sticky">
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-left" data-hero="left">
+        <span class="badge"><i></i>Creative Developer</span>
+        <h1>Full-Stack Developer &amp; UI Enthusiast</h1>
+      </div>
+
+      <div class="hero-card" id="heroCard">
+        <div class="hero-card-bg" aria-hidden="true"></div>
+        <img src="assets/profile-cutout.png" alt="Portrait of Cherrie Lou Cuenca" class="hero-photo" />
+        <div class="hero-card-bar">
+          <span class="dot-live"></span>
+          <span>BSIT · STI College Lipa</span>
+          <span class="chip-sm">Open to work</span>
+        </div>
+        <p class="hero-quote" id="heroQuote">I bridge the gap between <em>complex logic</em> and <em>elegant design.</em></p>
+      </div>
+
+      <div class="hero-right" data-hero="right">
+        <p>22-year-old creative developer from the Philippines — crafting clean code, high-fidelity interfaces, and 3D worlds in Blender.</p>
+        <a href="#projects" class="btn-orange">View Projects <span class="btn-ic">→</span></a>
+      </div>
+
+      <div class="wordmark" id="wordmark" aria-hidden="true">CHERRIE</div>
+    </div>
+  </section>
+
+  <!-- ============ TOOL CAROUSEL ============ -->
+  <section class="marquee-sec" aria-label="Tools I use">
+    <p class="marquee-title">Tools &amp; technologies I build with</p>
+    <div class="marquee">
+      <div class="marquee-row">
+        <span>VS Code</span><span>Java</span><span>Python</span><span>SQL</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>C#</span>
+      </div>
+    </div>
+    <div class="marquee reverse">
+      <div class="marquee-row">
+        <span>Blender</span><span>Figma</span><span>Canva Pro</span><span>GIMP</span><span>Inkscape</span><span>SAP S/4HANA</span><span>IoT</span><span>Git &amp; GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT (bento) ============ -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="badge"><i></i>About me</span>
+        <h2>Logic meets <span class="grad">imagination.</span></h2>
+      </div>
+
+      <div class="bento about-bento">
+        <article class="tile t-intro reveal">
+          <h3>Hi, I'm Cherrie Lou Cuenca.</h3>
+          <p>I am a <strong>22-year-old Creative Developer and UI Enthusiast</strong>, currently navigating the intersection of technology and art. My work is defined by a commitment to bridging the gap between technical logic and human-centered design, ensuring digital products are both robust and beautiful.</p>
+          <p>Currently, I am pursuing my <strong>Bachelor of Science in Information Technology (BSIT)</strong> at STI College Lipa (2023–Present). Based in the Philippines, I am dedicated to mastering modern frameworks and design principles to create impactful digital solutions.</p>
+        </article>
+
+        <article class="tile t-photo reveal">
+          <img src="assets/profile-cutout.png" alt="Cherrie Lou Cuenca" />
+          <span class="tile-tag">Lipa City, Batangas</span>
+        </article>
+
+        <article class="tile t-stat reveal"><b data-count="4">0</b><span>Disciplines</span></article>
+        <article class="tile t-stat reveal"><b data-count="13">0</b><span>Years learning</span></article>
+        <article class="tile t-stat reveal"><b data-count="16">0</b><span>Projects featured</span></article>
+        <article class="tile t-stat reveal"><b data-count="100" data-suffix="%">0</b><span>Curiosity</span></article>
+
+        <article class="tile t-work reveal">
+          <div class="tile-top">
+            <span class="kicker">Work experience</span>
+            <span class="date-pill">Nov 2024 — Present</span>
+          </div>
+          <h3>Virtual Assistant</h3>
+          <p class="muted">Private Sourcing Agency</p>
+          <ul class="ticks">
+            <li>Create content for the agency's social media and job postings.</li>
+            <li>Edit and design visual content — graphics, layouts, and hiring materials.</li>
+            <li>Reply to inquiries from applicants and clients promptly and professionally.</li>
+            <li>Guide and support applicants through the hiring process to help them land a job.</li>
+          </ul>
+        </article>
+
+        <article class="tile t-pillar reveal">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 17l-5-5 5-5M15 7l5 5-5 5"/></svg></span>
+          <h3>Functional Logic</h3>
+          <p>I architect clean, efficient systems in VS Code, ensuring that the backend is as robust as the frontend is beautiful.</p>
+        </article>
+        <article class="tile t-pillar reveal">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2 4 7v10l8 5 8-5V7z"/><path d="M12 22V12M4 7l8 5 8-5"/></svg></span>
+          <h3>Immersive Design</h3>
+          <p>Using Canva and Blender to craft high-fidelity interfaces and 3D assets that prioritize accessibility and user delight.</p>
+        </article>
+
+        <article class="tile t-edu reveal">
+          <span class="kicker">Education</span>
+          <ol class="steps">
+            <li><span class="date-pill">2023 — Present</span><h4>Tertiary Level</h4><p>STI College Lipa — Bachelor of Science in Information Technology</p></li>
+            <li><span class="date-pill">2017 — 2023</span><h4>High School</h4><p>Bulacnin Integrated National Highschool — Completed Secondary Education</p></li>
+            <li><span class="date-pill">2012 — 2017</span><h4>Elementary</h4><p>Bulacnin Elementary School</p></li>
+          </ol>
+        </article>
+
+        <article class="tile t-sem reveal">
+          <span class="kicker">Specialized seminars</span>
+          <div class="sem">
+            <h4>Inside the Hacker's Mind</h4>
+            <span class="date-pill">Nov 2025</span>
+            <p>Ethical hacking, cyber threat defense, and security mindset.</p>
+          </div>
+          <div class="sem">
+            <h4>IoT Applications &amp; Development</h4>
+            <span class="date-pill">Nov 2025</span>
+            <p>Smart system integration and hardware-software communication.</p>
+          </div>
+        </article>
+
+        <article class="tile t-cert reveal">
+          <span class="kicker">Training &amp; certifications</span>
+          <ul class="cert-list">
+            <li><span>Intro to SAP S/4HANA using Global Bike – Part II</span><em>Dec 2025</em></li>
+            <li><span>IoT Applications and Machine Learning</span><em>Nov 2025</em></li>
+            <li><span>Ethical Hacking and Defending Against Evolving Threats</span><em>Nov 2025</em></li>
+            <li><span>Building A Connected Tomorrow – IoT Innovations and Beyond</span><em>Apr 2025</em></li>
+            <li><span>SQL &amp; Database Management | Intermediate</span><em>Jan 2024</em></li>
+            <li><span>SAP S/4 HANA | Fundamentals</span><em>Jan 2024</em></li>
+            <li><span>Java Programming | Intermediate</span><em>Aug 2023</em></li>
+            <li><span>Python &amp; Web Tech | Foundational</span><em>2024–2026</em></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3D STUDIO ============ -->
+  <section id="model" class="section model-sec">
+    <div class="wrap model-grid">
+      <div class="model-copy reveal">
+        <span class="badge"><i></i>3D Studio</span>
+        <h2>Hard-Surface <span class="grad">Lantern</span></h2>
+        <p>My Blender lantern study, rebuilt live in your browser. Drag to orbit around it, and click the lantern to switch its light on or off.</p>
+        <div class="model-actions">
+          <button class="btn-orange" id="lampToggle">Toggle light <span class="btn-ic">✦</span></button>
+          <button class="btn-ghost" id="wireToggle">Wireframe view</button>
+        </div>
+        <ul class="model-specs">
+          <li><b>Tool</b><span>Blender</span></li>
+          <li><b>Focus</b><span>Topology · surface detail</span></li>
+          <li><b>Render</b><span>Real-time WebGL</span></li>
+        </ul>
+      </div>
+      <div class="model-stage reveal" id="modelStage">
+        <div class="model-hint">Drag to rotate</div>
+        <noscript><img src="assets/blender-lamp.jpg" alt="Blender lantern model" /></noscript>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS (bento) ============ -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <div class="sec-head row reveal">
+        <div>
+          <span class="badge"><i></i>Selected work</span>
+          <h2>Projects</h2>
+        </div>
+        <p class="sec-sub">From high-fidelity UI prototypes to spatial 3D environments — where technical logic meets creative immersion.</p>
+      </div>
+
+      <div class="filters reveal" role="tablist">
+        <button class="filter on" data-filter="all">All</button>
+        <button class="filter" data-filter="3d">3D / Blender</button>
+        <button class="filter" data-filter="graphics">Graphics</button>
+        <button class="filter" data-filter="code">Code</button>
+        <button class="filter" data-filter="ui">UI / Prototypes</button>
+      </div>
+
+      <div class="bento proj-bento" id="projGrid">
+        <article class="proj big has-video" data-cat="3d" data-video="assets/sukuna-siopao.mp4" data-img="assets/sukuna-siopao.jpg" data-tag="3D · Animation" data-title="Sukuna Siopao" data-desc="Character animation rendered in Blender — shape-key facial expressions, dramatic red lighting, and a cinematic camera push-in.">
+          <video src="assets/sukuna-siopao.mp4" poster="assets/sukuna-siopao.jpg" muted loop playsinline preload="none"></video>
+          <span class="play-badge">▶ Animation</span>
+        </article>
+        <article class="proj wide has-video" data-cat="3d" data-video="assets/cuckoo-clock.mp4" data-img="assets/cuckoo-clock.jpg" data-tag="3D · Animation" data-title="Cuckoo Clock" data-desc="Animated cuckoo clock modeled in Blender — a keyframed cuckoo bird popping out, a swinging pendulum, moving clock hands, and hanging chain weights.">
+          <video src="assets/cuckoo-clock.mp4" poster="assets/cuckoo-clock.jpg" muted loop playsinline preload="none"></video>
+          <span class="play-badge">▶ Animation</span>
+        </article>
+        <article class="proj wide" data-cat="3d" data-img="assets/blender-room.png" data-tag="3D · Blender" data-title="Digital Craftsmanship" data-desc="Leveraging Blender to visualize concepts in three dimensions — isometric environments, procedural lighting, and high-quality rendering.">
+          <img src="assets/blender-room.png" alt="Blender room render" loading="lazy" />
+        </article>
+        <article class="proj tall" data-cat="3d" data-img="assets/blender-lamp.jpg" data-tag="3D · Modeling" data-title="Hard-Surface Lantern" data-desc="Wireframe-to-render workflow exploring topology, surface detail, and clean mesh construction in Blender.">
+          <img src="assets/blender-lamp.jpg" alt="Blender lamp wireframe" loading="lazy" />
+        </article>
+        <article class="proj" data-cat="graphics" data-img="assets/gimp-tux.jpg" data-tag="GIMP · Vector" data-title="Digital Graphics Mastery" data-desc="Utilizing GIMP and Inkscape to craft high-impact visual assets — precise color correction, complex masking, and creative compositing.">
+          <img src="assets/gimp-tux.jpg" alt="GIMP vector illustration of Tux" loading="lazy" />
+        </article>
+        <article class="proj" data-cat="graphics" data-img="assets/gimp-portrait.jpg" data-tag="Inkscape · Tracing" data-title="Vector Portrait Study" data-desc="Bitmap-to-vector tracing for storytelling — exploring auto-trace settings, speckle reduction, and corner smoothing.">
+          <img src="assets/gimp-portrait.jpg" alt="Vector portrait edit" loading="lazy" />
+        </article>
+        <article class="proj wide" data-cat="code" data-img="assets/tech-registration.jpg" data-tag="Java · WinForms" data-title="Student Registration System" data-desc="Architecting the brain of the digital product — backend logic with form validation, confirmation flows, and structured data capture.">
+          <img src="assets/tech-registration.jpg" alt="Java registration form" loading="lazy" />
+        </article>
+        <article class="proj wide" data-cat="code" data-img="assets/tech-cafe.jpg" data-tag="C# · SQL" data-title="Cherrie Cloud Café POS" data-desc="Point-of-sale interface with order management and database persistence — CRUD operations with a friendly themed UI.">
+          <img src="assets/tech-cafe.jpg" alt="Cherrie Cloud Café POS" loading="lazy" />
+        </article>
+        <article class="proj tall" data-cat="ui" data-img="assets/ui-candy-menu.png" data-tag="UI · Canva" data-title="Sugary Jelly Candy" data-desc="High-fidelity menu and brand identity — visual hierarchies, vibrant typography, and modern storytelling aesthetics.">
+          <img src="assets/ui-candy-menu.png" alt="Sugary Jelly Candy menu" loading="lazy" />
+        </article>
+        <article class="proj" data-cat="ui" data-img="assets/ui-monday.jpg" data-tag="UI · Social" data-title="One More Monday" data-desc="Editorial-style social media composition combining 3D mockup elements with bold motivational copy.">
+          <img src="assets/ui-monday.jpg" alt="One more Monday calendar design" loading="lazy" />
+        </article>
+        <article class="proj" data-cat="ui" data-img="assets/ui-candy-corner.png" data-tag="UI · Branding" data-title="The Candy Corner" data-desc="Retro-inspired packaging concept with checkered patterns, character illustration, and confectionery-themed branding.">
+          <img src="assets/ui-candy-corner.png" alt="The Candy Corner design" loading="lazy" />
+        </article>
+        <article class="proj tall" data-cat="ui" data-img="assets/ui-hiring.jpg" data-tag="UI · Social" data-title="Recruitment Campaign" data-desc="A clean, conversion-focused hiring announcement — clear visual hierarchy, scannable requirements, and a bold call-to-action layout.">
+          <img src="assets/ui-hiring.jpg" alt="Accenture hiring social media post" loading="lazy" />
+        </article>
+        <article class="proj tall" data-cat="ui" data-img="assets/new%20layout%201.jpg" data-tag="UI · Social" data-title="Health Ops Hiring Post" data-desc="Bold vertical typography paired with a clean qualifications list — a recruitment post built for quick scanning and a clear call to apply.">
+          <img src="assets/new%20layout%201.jpg" alt="We Are Hiring — Health Operations Associate post" loading="lazy" />
+        </article>
+        <article class="proj tall" data-cat="ui" data-img="assets/new%20layout%202.jpg" data-tag="UI · Infographic" data-title="Referral Journey Map" data-desc="A ten-step hiring roadmap visualized as a connected path — numbered milestones guide referrals from application to Day 1.">
+          <img src="assets/new%20layout%202.jpg" alt="Accenture referral hiring process journey map" loading="lazy" />
+        </article>
+        <article class="proj tall" data-cat="ui" data-img="assets/new%20layout%203.jpg" data-tag="UI · Social" data-title="Your Next Chapter" data-desc="Glassmorphism quote card on a deep violet gradient — an encouraging, minimal message that puts the copy front and center.">
+          <img src="assets/new%20layout%203.jpg" alt="Accenture is hiring referral quote card" loading="lazy" />
+        </article>
+        <article class="proj tall" data-cat="ui" data-img="assets/new%20layout%204.jpg" data-tag="UI · Social" data-title="It's About the Right" data-desc="Light, airy layout with icon-led benefit rows and a strong accent check mark — a Monday-themed referral call-to-action.">
+          <img src="assets/new%20layout%204.jpg" alt="It's about the right role — Monday hiring post" loading="lazy" />
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS (bento) ============ -->
+  <section id="skills" class="section">
+    <div class="wrap">
+      <div class="sec-head row reveal">
+        <div>
+          <span class="badge"><i></i>Skills</span>
+          <h2>A multidisciplinary <span class="grad">toolkit.</span></h2>
+        </div>
+        <p class="sec-sub">From architecting robust backend logic in Java and SQL to crafting immersive, spatial narratives in Blender — defined by functional elegance and system integrity.</p>
+      </div>
+
+      <div class="bento skill-bento">
+        <article class="tile s-feature reveal">
+          <span class="big-num">3D</span>
+          <h3>Spatial Visualization</h3>
+          <p>Adding dimension to digital storytelling through high-fidelity hard-surface modeling and atmospheric environment design.</p>
+        </article>
+        <article class="tile s-feature alt reveal">
+          <span class="big-num">UI</span>
+          <h3>Creative Realization</h3>
+          <p>Defining the visual soul of the product with pixel-perfect UI/UX prototyping and specialized graphic manipulation.</p>
+        </article>
+
+        <article class="tile s-card reveal">
+          <h3>Technical Proficiency</h3>
+          <div class="bars">
+            <div class="bar"><span>HTML5 &amp; CSS</span><i style="--v:90%"></i></div>
+            <div class="bar"><span>JavaScript</span><i style="--v:80%"></i></div>
+            <div class="bar"><span>Responsive Web Design</span><i style="--v:85%"></i></div>
+            <div class="bar"><span>Database Management (SQL)</span><i style="--v:75%"></i></div>
+          </div>
+        </article>
+        <article class="tile s-card reveal">
+          <h3>Visual &amp; UI Strategy</h3>
+          <div class="bars">
+            <div class="bar"><span>Canva Pro (High-fidelity Layouts)</span><i style="--v:95%"></i></div>
+            <div class="bar"><span>Figma (UI/UX Prototyping)</span><i style="--v:80%"></i></div>
+            <div class="bar"><span>Visual Branding &amp; Typography</span><i style="--v:85%"></i></div>
+            <div class="bar"><span>Wireframing &amp; User Flows</span><i style="--v:82%"></i></div>
+          </div>
+        </article>
+        <article class="tile s-card reveal">
+          <h3>3D Visualization</h3>
+          <div class="bars">
+            <div class="bar"><span>Blender (Modeling &amp; Rendering)</span><i style="--v:78%"></i></div>
+            <div class="bar"><span>3D Asset Creation</span><i style="--v:72%"></i></div>
+            <div class="bar"><span>Texture &amp; Lighting Design</span><i style="--v:70%"></i></div>
+            <div class="bar"><span>Spatial Composition</span><i style="--v:75%"></i></div>
+          </div>
+        </article>
+        <article class="tile s-card reveal">
+          <h3>Soft Skills</h3>
+          <div class="chips">
+            <span>Creative Communication</span><span>Collaborative Synergy</span><span>Critical Problem Solving</span>
+            <span>Professional Integrity</span><span>Adaptability</span><span>Attention to Detail</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <span class="badge"><i></i>Contact</span>
+        <h2>Let's build the <span class="grad">future together.</span></h2>
+        <p class="sec-sub">I am always looking for opportunities to blend Functional Logic with High-Fidelity Design. Reach out to discuss collaboration or innovative digital solutions.</p>
+        <div class="contact-links">
+          <a href="mailto:cuencacherrielou@gmail.com" class="c-link"><small>Email</small>cuencacherrielou@gmail.com<span>↗</span></a>
+          <a href="https://linkedin.com/in/cherriecuenca" target="_blank" rel="noopener" class="c-link"><small>LinkedIn</small>/in/cherriecuenca<span>↗</span></a>
+          <a href="https://github.com/cuencacherrielou-crypto" target="_blank" rel="noopener" class="c-link"><small>GitHub</small>/cuencacherrielou-crypto<span>↗</span></a>
+          <div class="c-link static"><small>Location</small>Lipa City, Batangas</div>
+        </div>
+      </div>
+
+      <form class="c-form tile reveal" id="contactForm" novalidate>
+        <h3>Send a message</h3>
+        <label>Your name<input name="name" type="text" required /></label>
+        <label>Email<input name="email" type="email" required /></label>
+        <label>Message<textarea name="message" rows="5" required></textarea></label>
+        <p class="form-error" id="formError" role="alert"></p>
+        <button type="submit" class="btn-orange full">Send Message <span class="btn-ic">→</span></button>
+        <p class="form-note">Opens your email app with the message ready to send.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <p>© <span id="year"></span> Cherrie Lou Cuenca · Functional Logic + Immersive Design</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+    <div class="wordmark footer-mark" aria-hidden="true">CUENCA</div>
+  </footer>
+
+  <!-- Project lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project details">
+    <div class="lb-panel">
+      <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+      <div class="lb-media"><img id="lbImg" alt="" /><video id="lbVideo" controls playsinline hidden></video></div>
+      <div class="lb-body">
+        <span class="chip-sm" id="lbTag"></span>
+        <h3 id="lbTitle"></h3>
+        <p id="lbDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="model3d.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
